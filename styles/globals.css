@@ -1,26 +1,145 @@
-html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #f6f6f6;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.comm-left{
+  background-color: #FFF;
+  padding:.3rem;
+  border-radius: .3rem;
+  border:1px solid #eee;
+}
+.comm-box{
+  background-color: #FFF;
+  margin-left: .5rem;
+  padding:.3rem;
+  border-radius: .3rem;
+  border:1px solid #eee;
+}
+.comm-main{
+  margin-top: .5rem;
 }
 
-* {
-  box-sizing: border-box;
+.header {
+  background-color: #fff;
+  padding: .4rem;
+  overflow: hidden;
+  height: 3.2rem;
+  border-bottom: 1px solid #ccc;
+}
+.header-logo {
+  color: #1e90ff;
+  font-size: 1.4rem;
+  text-align: left;
+}
+.header-txt {
+  font-size: .6rem;
+  color: #999;
+  display: inline-block;
+  padding-left: .3rem;
+}
+.ant-menu {
+  line-height: 2.8rem;
+}
+.ant-menu-item {
+  font-size: 1rem !important;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+.list-title{
+  font-size:1.3rem;
+  color: #1e90ff;
+  padding: 0 0.5rem;
+}
+.list-context{
+  color:#777;
+  padding:.5rem;
+}
+.list-icon{
+  padding:.5rem 0;
+  color:#AAA;
+}
+.list-icon span{
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.author-div{
+  text-align: center;
+  padding: 1rem;
+
+}
+.author-div div{
+  margin-bottom: 1rem;
+
+}
+.author-introduction{
+  font-size:.8rem;
+  color: #999;
+}
+.account{
+  background-color: #999;
+  margin-left: .5rem;
+  margin-right: .5rem;
+}
+
+.ad-div{
+  margin-top: .5rem;
+}
+.ad-div div{
+  border-radius: .3rem;
+  margin-bottom: .2rem;
+  overflow: hidden;
+}
+
+.footer-div{
+  text-align: center;
+  width: 100%;
+  padding: 1rem;
+  color:#888;
+}
+
+.bread-div{
+  padding: .5rem;
+  border-bottom:1px solid #eee;
+  background-color: #e1f0ff;
+}
+.detail-title{
+  font-size: 1.8rem;
+  text-align: center;
+  padding: 1rem;
+}
+.center{
+  text-align: center;
+}
+.detail-content{
+  padding: 1.3rem;
+  font-size: 1rem;
+}
+code {
+  display: block ;
+  background-color:#f3f3f3;
+  padding: .5rem !important;
+  overflow-y: auto;
+  font-weight: 300;
+  font-family: Menlo, monospace;
+  border-radius: .3rem;
+}
+.title-anchor{
+  color:#888 !important;
+  padding:4px !important;
+  margin: 0 !important;
+  height: auto !important;
+  line-height: 1.2rem !important;
+  font-size: .9rem !important;
+  border-bottom: 1px dashed #eee;
+}
+.active{
+  color:rgb(30, 144, 255) !important;
+}
+.nav-title{
+  text-align: center;
+  color: #888;
+  border-bottom: 1px solid rgb(30, 144, 255);
+
 }
